@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "id": "multi-agent",
+      "name": "Multi-agent orchestration",
+      "color": "#e91e8c",
+      "tasks": [
+        { "id": "ma-1", "name": "VS code template", "assignee": "Vit Losenicky", "status": "not-started" },
+        { "id": "ma-2", "name": "General agent systems", "assignee": "Jirka Ciemala", "status": "not-started" },
+        { "id": "ma-3", "name": "HIL Use case", "assignee": "Miguel Lasso", "status": "not-started" }
+      ]
+    },
+    {
+      "id": "knowledge-graphs",
+      "name": "Knowledge graphs",
+      "color": "#9c27b0",
+      "tasks": [
+        { "id": "kg-1", "name": "Chat bot", "assignee": "Martin Bradac", "status": "not-started" },
+        { "id": "kg-2", "name": "Team composition and goals", "assignee": "", "status": "not-started" },
+        { "id": "kg-3", "name": "LinkedIn like page for skills and experience", "assignee": "", "status": "not-started" }
+      ]
+    },
+    {
+      "id": "edge-ai",
+      "name": "EdgeAI (orcahand.com)",
+      "color": "#ff9800",
+      "tasks": [
+        { "id": "ea-1", "name": "3D print", "assignee": "Martin Polak", "status": "not-started" },
+        { "id": "ea-2", "name": "Simulation", "assignee": "Petr Hruda", "status": "not-started" },
+        { "id": "ea-3", "name": "HMI testing Use case", "assignee": "Patrik Janecka", "status": "not-started" },
+        { "id": "ea-4", "name": "miniHII Use case", "assignee": "", "status": "not-started" }
+      ]
+    },
+    {
+      "id": "ai-knowledge-base",
+      "name": "AI knowledge base",
+      "color": "#4caf50",
+      "tasks": [
+        { "id": "akb-1", "name": "AI knowledge base", "assignee": "Lukas Varys", "status": "not-started" }
+      ]
+    },
+    {
+      "id": "ai-e2e",
+      "name": "AI E2E evaluation strategy",
+      "color": "#00bcd4",
+      "tasks": [
+        { "id": "e2e-1", "name": "AI E2E evaluation strategy", "assignee": "Jirka Ciemala", "status": "not-started" }
+      ]
+    },
+    {
+      "id": "vlm",
+      "name": "VLM",
+      "color": "#3f51b5",
+      "tasks": [
+        { "id": "vlm-1", "name": "Eye tracking system — HMI testing use case", "assignee": "Patrik Janecka", "status": "not-started" },
+        { "id": "vlm-2", "name": "Eye tracking system — Car Demo", "assignee": "Petr Krumpolc", "status": "not-started" },
+        { "id": "vlm-3", "name": "AI dev. environment — Simulator experiments", "assignee": "Ondrej Deingruber", "status": "not-started" },
+        { "id": "vlm-4", "name": "AI jobs analysis — Job statistics", "assignee": "Martin Bradac", "status": "not-started" },
+        { "id": "vlm-5", "name": "HIL as a service — PoC: Azure services, AI agents to HW, MCP interface", "assignee": "Oldrich Urbis", "status": "not-started" }
+      ]
+    },
+    {
+      "id": "ai-cloud",
+      "name": "AI cloud services",
+      "color": "#8bc34a",
+      "tasks": [
+        { "id": "ac-1", "name": "SW dev. in cloud with AI", "assignee": "Petr West", "status": "not-started" },
+        { "id": "ac-2", "name": "AI tools for Data analytics", "assignee": "Pavel Mencner", "status": "not-started" },
+        { "id": "ac-3", "name": "AI Big Data", "assignee": "Kamil Mostowski", "status": "not-started" },
+        { "id": "ac-4", "name": "Data Products, blueprints", "assignee": "Michal Tretina", "status": "not-started" },
+        { "id": "ac-5", "name": "Examples, marketing, automotive", "assignee": "Maciej Olszewski", "status": "not-started" }
+      ]
+    }
+  ]
+}

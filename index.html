@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Mindmap — Progress Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>AI Mindmap <span>Progress Tracker</span></h1>
+  <div class="header-controls">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="not-started">Not started</button>
+    <button class="filter-btn" data-filter="in-progress">In progress</button>
+    <button class="filter-btn" data-filter="done">Done</button>
+    <button class="filter-btn" data-filter="blocked">Blocked</button>
+    <button id="export-btn">⬇ Export CSV</button>
+  </div>
+</header>
+
+<div class="summary-bar">
+  <div class="summary-stat">
+    <div class="num" id="stat-total">—</div>
+    <div class="label">Total tasks</div>
+  </div>
+  <div class="summary-stat">
+    <div class="num done" id="stat-done">—</div>
+    <div class="label">Done</div>
+  </div>
+  <div class="summary-stat">
+    <div class="num progress" id="stat-progress">—</div>
+    <div class="label">In progress</div>
+  </div>
+  <div class="summary-stat">
+    <div class="num blocked" id="stat-blocked">—</div>
+    <div class="label">Blocked</div>
+  </div>
+  <div class="overall-progress">
+    <div class="prog-label">
+      <span>Overall completion</span>
+      <span id="overall-pct">0%</span>
+    </div>
+    <div class="prog-track">
+      <div class="prog-fill" id="overall-fill" style="width:0%"></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="last-saved" id="last-saved"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
